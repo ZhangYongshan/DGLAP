@@ -1,4 +1,4 @@
-function [y_pred, Z, S, W,clusterNum] = main(X, spLabel, m, c, r,iter_num)
+function [y_pred, Z, S, W,clusterNum] = DGLAP(X, spLabel, m, c, r,iter_num)
 %%
 % Input:
 %       X: 2D data matrix, each column is a pixel(sample).
